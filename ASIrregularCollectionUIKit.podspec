@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASIrregularCollectionUIKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ASIrregularCollectionUIKit.'
+  s.version          = '1.0.0'
+  s.summary          = 'Irregular Collection View Layout and Controller for Texture.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hh963103@gmail.com/ASIrregularCollectionUIKit'
+  s.homepage         = 'https://github.com/pisces/ASIrregularCollectionUIKit'
+  s.description      = 'Irregular Collection View Layout and Controller for Texture'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'hh963103@gmail.com' => 'pisces@retrica.co' }
-  s.source           = { :git => 'https://github.com/hh963103@gmail.com/ASIrregularCollectionUIKit.git', :tag => s.version.to_s }
+  s.author           = { 'Steve Kim' => 'hh963103@gmail.com' }
+  s.source           = { :git => 'https://github.com/pisces/ASIrregularCollectionUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ASIrregularCollectionUIKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ASIrregularCollectionUIKit' => ['ASIrregularCollectionUIKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Texture', '~> 2.5'
+  s.dependency 'IrregularCollectionUIKit', '~> 2.0.0'
 end

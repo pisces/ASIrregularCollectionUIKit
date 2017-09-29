@@ -1,0 +1,46 @@
+PODS:
+  - ASIrregularCollectionUIKit (1.0.0):
+    - IrregularCollectionUIKit (~> 2.0.0)
+    - Texture (~> 2.5)
+  - IrregularCollectionUIKit (2.0.0)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.12):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.12):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.12):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - Texture (2.5):
+    - Texture/PINRemoteImage (= 2.5)
+  - Texture/Core (2.5)
+  - Texture/PINRemoteImage (2.5):
+    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - ASIrregularCollectionUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  ASIrregularCollectionUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASIrregularCollectionUIKit: c8a483088fbde4cdd34cd55d27fc01f7c574bb73
+  IrregularCollectionUIKit: 4c26f1894cf244002e088516d01c14465d9f7a0c
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
+  Texture: 12eb0807c117aaa21ef86f7f52dc61cc13e59739
+
+PODFILE CHECKSUM: 1b8f7f2be033341ae8f1a860c174ea3b4482dd2c
+
+COCOAPODS: 1.2.1

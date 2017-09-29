@@ -1,0 +1,6 @@
+framework module IrregularCollectionUIKit {
+  umbrella header "IrregularCollectionUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
