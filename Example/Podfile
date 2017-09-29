@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASIrregularCollectionUIKit_Example' do
+  pod 'ASIrregularCollectionUIKit', :path => '../'
+
+  target 'ASIrregularCollectionUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
