@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "ASIrregularCollectionUIKit_Example.app"
-               BlueprintName = "ASIrregularCollectionUIKit_Example"
+               BlueprintIdentifier = "23F40B091F7E9D79000C605B"
+               BuildableName = "ASIrregularCollectionUIKit.framework"
+               BlueprintName = "ASIrregularCollectionUIKit"
                ReferencedContainer = "container:ASIrregularCollectionUIKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "ASIrregularCollectionUIKit_Tests.xctest"
-               BlueprintName = "ASIrregularCollectionUIKit_Tests"
+               BlueprintIdentifier = "23F40B121F7E9D79000C605B"
+               BuildableName = "ASIrregularCollectionUIKitTests.xctest"
+               BlueprintName = "ASIrregularCollectionUIKitTests"
                ReferencedContainer = "container:ASIrregularCollectionUIKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ASIrregularCollectionUIKit_Example.app"
-            BlueprintName = "ASIrregularCollectionUIKit_Example"
+            BlueprintIdentifier = "23F40B091F7E9D79000C605B"
+            BuildableName = "ASIrregularCollectionUIKit.framework"
+            BlueprintName = "ASIrregularCollectionUIKit"
             ReferencedContainer = "container:ASIrregularCollectionUIKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ASIrregularCollectionUIKit_Example.app"
-            BlueprintName = "ASIrregularCollectionUIKit_Example"
+            BlueprintIdentifier = "23F40B091F7E9D79000C605B"
+            BuildableName = "ASIrregularCollectionUIKit.framework"
+            BlueprintName = "ASIrregularCollectionUIKit"
             ReferencedContainer = "container:ASIrregularCollectionUIKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ASIrregularCollectionUIKit_Example.app"
-            BlueprintName = "ASIrregularCollectionUIKit_Example"
+            BlueprintIdentifier = "23F40B091F7E9D79000C605B"
+            BuildableName = "ASIrregularCollectionUIKit.framework"
+            BlueprintName = "ASIrregularCollectionUIKit"
             ReferencedContainer = "container:ASIrregularCollectionUIKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

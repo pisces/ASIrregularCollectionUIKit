@@ -8,7 +8,17 @@
 
 #import "ASIrregularCollectionNode.h"
 
+@interface ASIrregularCollectionNode ()
+@property (nonnull, nonatomic, readonly) ASIrregularCollectionViewLayout *irregularCollectionViewLayout;
+@end
+
 @implementation ASIrregularCollectionNode
+
+#pragma mark - Properties
+
+- (ASIrregularCollectionViewLayout *)irregularCollectionViewLayout {
+    return (ASIrregularCollectionViewLayout *) self.collectionViewLayout;
+}
 
 #pragma mark - Overridden: ASCollectionNode
 
@@ -72,7 +82,7 @@
 - (instancetype)init {
     self = [super initWithFrame:CGRectZero collectionViewLayout:[ASIrregularCollectionViewLayout new]];
     if (self) {
-        self.layoutInspector = [IrregularCollectionViewLayoutInspector new];
+        self.layoutInspector = self.irregularCollectionViewLayout.inspector;
     }
     return self;
 }
@@ -80,7 +90,7 @@
 #pragma mark - Private methods
 
 - (void)prepareLayout {
-    [((IrregularCollectionViewLayout *) self.collectionViewLayout) prepareLayout];
+    [self.irregularCollectionViewLayout prepareLayout];
 }
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import <IrregularCollectionUIKit/IrregularCollectionUIKit.h>
+#import "IrregularCollectionViewLayoutInspector.h"
 
 @interface ASIrregularCollectionViewLayout : IrregularCollectionViewLayout
+@property (nonnull, nonatomic, readonly) IrregularCollectionViewLayoutInspector *inspector;
 @end
