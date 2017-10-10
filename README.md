@@ -17,7 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### To implement collection view with the class ASIrregularCollectionViewController using UIKit for Texture
 ```Swift
-class DemoViewController: IrregularCollectionViewController {
+class DemoViewController: ASIrregularCollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,6 +45,8 @@ class DemoViewController: IrregularCollectionViewController {
 
 ## Requirements
 
+iOS Deployment Target 8.0 higher
+
 ## Installation
 
 ASIrregularCollectionUIKit is available through [CocoaPods](http://cocoapods.org). To install
@@ -54,9 +56,28 @@ it, simply add the following line to your Podfile:
 pod "ASIrregularCollectionUIKit"
 ```
 
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "pisces/ASIrregularCollectionUIKit" ~> 1.0.0
+```
+
+Run `carthage update` to build the framework and drag the built `ASIrregularCollectionUIKit.framework` into your Xcode project.
+
 ## Author
 
-Steve Kim, pisces@retrica.co
+Steve Kim, hh963103@gmail.com
 
 ## License
 
