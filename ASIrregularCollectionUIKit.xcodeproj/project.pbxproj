@@ -10,16 +10,16 @@
 		23AB8CB91F8C91D4004EEA30 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AB8CB81F8C91D4004EEA30 /* AsyncDisplayKit.framework */; };
 		23AB8CBB1F8C91D7004EEA30 /* IrregularCollectionUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AB8CBA1F8C91D7004EEA30 /* IrregularCollectionUIKit.framework */; };
 		23F40B141F7E9D79000C605B /* ASIrregularCollectionUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F40B0A1F7E9D79000C605B /* ASIrregularCollectionUIKit.framework */; };
-		23F40B2F1F7E9DEE000C605B /* ASIrregularCollectionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B241F7E9DEE000C605B /* ASIrregularCollectionNode.h */; };
+		23F40B2F1F7E9DEE000C605B /* ASIrregularCollectionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B241F7E9DEE000C605B /* ASIrregularCollectionNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F40B301F7E9DEE000C605B /* ASIrregularCollectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F40B251F7E9DEE000C605B /* ASIrregularCollectionNode.m */; };
-		23F40B311F7E9DEE000C605B /* ASIrregularCollectionUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B261F7E9DEE000C605B /* ASIrregularCollectionUIKit.h */; };
-		23F40B321F7E9DEE000C605B /* ASIrregularCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B271F7E9DEE000C605B /* ASIrregularCollectionViewController.h */; };
+		23F40B311F7E9DEE000C605B /* ASIrregularCollectionUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B261F7E9DEE000C605B /* ASIrregularCollectionUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F40B321F7E9DEE000C605B /* ASIrregularCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B271F7E9DEE000C605B /* ASIrregularCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F40B331F7E9DEE000C605B /* ASIrregularCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F40B281F7E9DEE000C605B /* ASIrregularCollectionViewController.m */; };
-		23F40B341F7E9DEE000C605B /* ASIrregularCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B291F7E9DEE000C605B /* ASIrregularCollectionViewLayout.h */; };
+		23F40B341F7E9DEE000C605B /* ASIrregularCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B291F7E9DEE000C605B /* ASIrregularCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F40B351F7E9DEE000C605B /* ASIrregularCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F40B2A1F7E9DEE000C605B /* ASIrregularCollectionViewLayout.m */; };
-		23F40B361F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B2B1F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.h */; };
+		23F40B361F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B2B1F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F40B371F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F40B2C1F7E9DEE000C605B /* ASIrregularLayoutAttributesManager.m */; };
-		23F40B381F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B2D1F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.h */; };
+		23F40B381F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F40B2D1F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F40B391F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F40B2E1F7E9DEE000C605B /* IrregularCollectionViewLayoutInspector.m */; };
 /* End PBXBuildFile section */
 
