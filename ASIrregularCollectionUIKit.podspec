@@ -33,5 +33,5 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ASIrregularCollectionUIKit/Classes/**/*'
   s.dependency 'Texture', '~> 2.5'
-  s.dependency 'IrregularCollectionUIKit', '~> 2.0.0'
+  s.dependency 'IrregularCollectionUIKit', '~> 2.0.1'
 end

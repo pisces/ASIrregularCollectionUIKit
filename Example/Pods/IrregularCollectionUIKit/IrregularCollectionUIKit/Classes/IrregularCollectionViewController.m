@@ -10,7 +10,7 @@
 
 @implementation IrregularCollectionViewController
 
-#pragma mark - Overridden: UIViewController
+#pragma mark - Overridden: PropertyManagedViewController
 
 - (void)dealloc {
     _collectionView.dataSource = nil;
@@ -27,6 +27,26 @@
     _collectionView.dataSource = self;
     _collectionView.delegate = self;
     self.view = _collectionView;
+}
+
+#pragma mark - UICollectionView data source
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return 0;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 0;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
+#pragma mark - IrregularCollectionViewLayout delegate
+
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout originalItemSizeAtIndexPath:(NSIndexPath * _Nonnull)indexPath {
+    return CGSizeZero;
 }
 
 @end

@@ -1,8 +1,8 @@
 PODS:
   - ASIrregularCollectionUIKit (1.0.0):
-    - IrregularCollectionUIKit (~> 2.0.0)
+    - IrregularCollectionUIKit (~> 2.0.1)
     - Texture (~> 2.5)
-  - IrregularCollectionUIKit (2.0.0)
+  - IrregularCollectionUIKit (2.0.1)
   - PINCache (3.0.1-beta.5):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
     - PINCache/Core (= 3.0.1-beta.5)
@@ -34,8 +34,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASIrregularCollectionUIKit: c8a483088fbde4cdd34cd55d27fc01f7c574bb73
-  IrregularCollectionUIKit: 4c26f1894cf244002e088516d01c14465d9f7a0c
+  ASIrregularCollectionUIKit: e87ef63bc6cff766e940ea88db77e54fd6fbbf44
+  IrregularCollectionUIKit: 902b5633e4a7a00c4f1cc7d4f734d53ce19f1f2f
   PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f

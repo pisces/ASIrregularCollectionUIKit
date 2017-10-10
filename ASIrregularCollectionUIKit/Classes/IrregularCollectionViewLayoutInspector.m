@@ -7,7 +7,6 @@
 //
 
 #import "IrregularCollectionViewLayoutInspector.h"
-#import "IrregularCollectionViewLayout.h"
 
 @implementation IrregularCollectionViewLayoutInspector
 
@@ -37,7 +36,7 @@
 - (NSUInteger)collectionView:(ASCollectionView *)collectionView numberOfSectionsForSupplementaryNodeOfKind:(NSString *)kind {
     if ([kind isEqualToString:UICollectionElementKindSectionHeader] ||
         [kind isEqualToString:UICollectionElementKindSectionFooter]) {
-        return [collectionView.asyncDataSource numberOfSectionsInCollectionView:collectionView];
+        return [collectionView.collectionNode.dataSource numberOfSectionsInCollectionNode:collectionView.collectionNode];
     } else {
         return 0;
     }

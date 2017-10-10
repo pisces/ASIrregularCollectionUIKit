@@ -1,0 +1,18 @@
+[submodule "Carthage/Checkouts/PINRemoteImage"]
+	path = Carthage/Checkouts/PINRemoteImage
+	url = https://github.com/pinterest/PINRemoteImage.git
+[submodule "Carthage/Checkouts/libwebp"]
+	path = Carthage/Checkouts/libwebp
+	url = https://chromium.googlesource.com/webm/libwebp
+[submodule "Carthage/Checkouts/IrregularCollectionUIKit"]
+	path = Carthage/Checkouts/IrregularCollectionUIKit
+	url = https://github.com/pisces/IrregularCollectionUIKit.git
+[submodule "Carthage/Checkouts/PINOperation"]
+	path = Carthage/Checkouts/PINOperation
+	url = https://github.com/pinterest/PINOperation.git
+[submodule "Carthage/Checkouts/PINCache"]
+	path = Carthage/Checkouts/PINCache
+	url = https://github.com/pinterest/PINCache.git
+[submodule "Carthage/Checkouts/Texture"]
+	path = Carthage/Checkouts/Texture
+	url = https://github.com/TextureGroup/Texture.git

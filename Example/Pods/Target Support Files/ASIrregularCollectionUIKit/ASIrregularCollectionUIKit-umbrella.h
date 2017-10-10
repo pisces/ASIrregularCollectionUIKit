@@ -11,6 +11,7 @@
 #endif
 
 #import "ASIrregularCollectionNode.h"
+#import "ASIrregularCollectionUIKit.h"
 #import "ASIrregularCollectionViewController.h"
 #import "ASIrregularCollectionViewLayout.h"
 #import "ASIrregularLayoutAttributesManager.h"

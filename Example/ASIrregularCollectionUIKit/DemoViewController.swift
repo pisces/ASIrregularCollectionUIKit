@@ -23,7 +23,7 @@ class DemoViewController: ASIrregularCollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "ASIrregularCollectionViewController"
+        title = "Demo"
         edgesForExtendedLayout = .top
         collectionViewLayout.columnSpacing = 1
         collectionViewLayout.numberOfColumns = 3

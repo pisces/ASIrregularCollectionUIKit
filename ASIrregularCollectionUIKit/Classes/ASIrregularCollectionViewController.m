@@ -26,7 +26,13 @@
     _collectionNode.delegate = self;
     self.view = _collectionNode.view;
     
-    [_collectionNode tuningParametersForRangeMode:ASLayoutRangeModeMinimum rangeType:ASLayoutRangeTypeDisplay];
+    [_collectionNode setTuningParameters:ASRangeTuningParametersZero forRangeMode:ASLayoutRangeModeLowMemory rangeType:ASLayoutRangeTypeDisplay];
+}
+
+#pragma mark - IrregularCollectionViewLayout delegate
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout originalItemSizeAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeZero;
 }
 
 @end

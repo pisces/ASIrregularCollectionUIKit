@@ -11,7 +11,16 @@
 
 @implementation ASIrregularCollectionViewLayout
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _inspector = [IrregularCollectionViewLayoutInspector new];
+    }
+    return self;
+}
+
 - (IrregularLayoutAttributesManager *)createAttributesManager {
     return [[ASIrregularLayoutAttributesManager alloc] initWithLayout:self];
 }
+
 @end
