@@ -10,6 +10,16 @@
 
 @implementation ASIrregularCollectionViewController
 
+#pragma mark - Properties
+
+- (IrregularCollectionViewLayout *)collectionViewLayout {
+    return (IrregularCollectionViewLayout *) _collectionNode.collectionViewLayout;
+}
+
+- (IrregularCollectionViewLayoutInspector *)layoutInspector {
+    return (IrregularCollectionViewLayoutInspector *) _collectionNode.layoutInspector;
+}
+
 #pragma mark - Overridden: PropertyManagedViewController
 
 - (void)dealloc {
@@ -21,12 +31,12 @@
     [super viewDidLoad];
     
     _collectionNode = [ASIrregularCollectionNode new];
-    ((IrregularCollectionViewLayout *) _collectionNode.collectionViewLayout).delegate = self;
     _collectionNode.dataSource = self;
     _collectionNode.delegate = self;
+    self.collectionViewLayout.delegate = self;
     self.view = _collectionNode.view;
     
-    [_collectionNode setTuningParameters:ASRangeTuningParametersZero forRangeMode:ASLayoutRangeModeLowMemory rangeType:ASLayoutRangeTypeDisplay];
+    [_collectionNode setTuningParameters:ASRangeTuningParametersZero forRangeMode:ASLayoutRangeModeVisibleOnly rangeType:ASLayoutRangeTypeDisplay];
 }
 
 #pragma mark - IrregularCollectionViewLayout delegate
