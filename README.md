@@ -1,9 +1,12 @@
 # ASIrregularCollectionUIKit
 
+![Swift](https://img.shields.io/badge/Swift-3-orange.svg)
+![Objective-C](https://img.shields.io/badge/Objective-C-orange.svg)
 [![CI Status](http://img.shields.io/travis/pisces/ASIrregularCollectionUIKit.svg?style=flat)](https://travis-ci.org/pisces/ASIrregularCollectionUIKit)
 [![Version](https://img.shields.io/cocoapods/v/ASIrregularCollectionUIKit.svg?style=flat)](http://cocoapods.org/pods/ASIrregularCollectionUIKit)
 [![License](https://img.shields.io/cocoapods/l/ASIrregularCollectionUIKit.svg?style=flat)](http://cocoapods.org/pods/ASIrregularCollectionUIKit)
 [![Platform](https://img.shields.io/cocoapods/p/ASIrregularCollectionUIKit.svg?style=flat)](http://cocoapods.org/pods/ASIrregularCollectionUIKit)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Example
 
